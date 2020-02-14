@@ -1,3 +1,7 @@
-alert('Hello World') ;
-var myfavoriteFood='Ghana Jollof';
-document.write(myfavoriteFood);
+var repositoryArray = [
+  {name:"Bulbasaur"},
+  {height:7},
+  {types:'grass' , 'poison'},
+  {age:9},
+  {arm:'big'},
+  ];
