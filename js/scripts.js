@@ -7,15 +7,20 @@ var repositoryArray = [
   	types:'grass' , 'poison',
   	age:9,
   	arm:'big',
+  },
+  {
+  	name:"Bulbasaur",
+  	height:7,
+  	types:['eletricity'],
+
+  },
+  {
+  	name:"Bulbasaur",
+  	height:7,
+  	types:['grass' , 'poison']
+  	age:9,
+  	arm:'big',
   }
 ];
 
-
-var repositoryArray = [{name:'Bulbasaur'}];
-
-var repositoryArray =[{name:'Bulbasaur'},{height:7},{types:'grass' ,'poison'},{age:9},{arm:'big'}];
-
-var repositoryArray = {name: 'Bulbasaur'} ;
-
-var repositoryArray = {name:'Bulbasaur' ,height:7,types:'grass' ,'poison' ,age:9,arm:'big'};
 
