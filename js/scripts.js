@@ -24,3 +24,22 @@ var repositoryArray = [
 ];
 
 
+for (var i = 1; i <=3;i++) {
+	console.log(i);
+};	
+   document.write(Pokemon);
+
+var name = 'Bulbasaur';
+var height = 7;
+document.write("Bulbasaur(height:7)");
+
+
+var name = 'Bulbasaur';
+var height = 1.7;
+document.write('Bulbasaur(height:1.7)');-Wow that big;
+
+var name = 'Bulbasaur';
+var height = 0.5;
+document.write('Bulbasaur(height:0.5)');
+
+
