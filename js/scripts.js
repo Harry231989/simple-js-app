@@ -9,14 +9,14 @@ var repositoryArray = [
   	arm:'big',
   },
   {
-  	name:"Bulbasaur",
-  	height:7,
+  	name:'Charizard',
+  	height:1.7,
   	types:['eletricity'],
 
   },
   {
-  	name:"Bulbasaur",
-  	height:7,
+  	name:'Squirtle',
+  	height:0.5,
   	types:['grass' , 'poison']
   	age:9,
   	arm:'big',
@@ -34,12 +34,12 @@ var height = 7;
 document.write("Bulbasaur(height:7)");
 
 
-var name = 'Bulbasaur';
+var name = 'Charizard';
 var height = 1.7;
-document.write('Bulbasaur(height:1.7)');-Wow that big;
+document.write('Charizard(height:1.7)'  + "Wow, that's big!");
 
-var name = 'Bulbasaur';
+var name = 'Squirtle';
 var height = 0.5;
-document.write('Bulbasaur(height:0.5)');
+document.write('Squirtle(height:0.5)');
 
 
