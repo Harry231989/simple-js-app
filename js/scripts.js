@@ -13,38 +13,29 @@ var repositoryArray = [
   {
   	name:'Charizard',
   	height:1.7,
-  	types:['eletricity'],
+  	types:['grass',  'poison'],
 
   },
 
   {
   	name:'Squirtle',
   	height:0.5,
-  	types:['grass' , 'poison'],
+  	types:['grass' ,  'poison'],
   	age:9,
   	arm:'big',
   },
 ];
-document.write('repositoryArray');
-for (var i = 1; i <=3;i++) {
-	console.log(i);
-	
+
+
+for (var i = 0; i < 1;i++) {
+	console.log(repositoryArray[i]);
+    document.write("<p>"  + 'Bulbasaur(height:7)'  + "</p>");
+    document.write("<p>"  +  'Charizard(height:1.7)-Wow thats big'  +"</p>");
+    document.write("<p>"  +  'Squirtle(height:0.5)'  +  "</p>")
+
 };	
   
-
-var name = 'Bulbasaur';
-var height = 7;
-document.write("Bulbasaur(height:7)");
-
-
-var name = 'Charizard';
-var height = 1.7;
-document.write('Charizard(height:1.7)'  + "Wow, that's big!");
-
-
-var name = 'Squirtle';
-var height = 0.5;
-document.write('Squirtle(height:0.5)');
+  
 
 
 
