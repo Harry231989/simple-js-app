@@ -30,9 +30,11 @@ var repositoryArray = ['Bulbasaur'  +  'Charizard'  +  'Squirtle'];
 var arrayLength = repositoryArray.length;
 for (var i = 0; i < arrayLength;i++) {
     console.log(repositoryArray[i]);
-    document.write("<p>"  + 'Bulbasaur(height:7)'  + "</p>");
-    document.write("<p>"  +  'Charizard(height:1.7)-Wow thats big'  +"</p>");
-    document.write("<p>"  +  'Squirtle(height:0.5)'  +  "</p>")
+    document.write("<p>"  +  'Bulbasaur(height:7)' + 'grass','poison'  +  9  +  'big'  + "</p>");
+    document.write("<p>"  +  'Charizard(height:1.7)-Wow thats big'  + 'grass','poison'  +  "</p>");
+    document.write("<p>"  +  'Squirtle(height:0.5)'    +   'grass','poison'  +  9  +  'big'  + "</p>")
+
+
 
 };	
   
