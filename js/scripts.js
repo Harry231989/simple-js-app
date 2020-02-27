@@ -25,6 +25,7 @@ var repositoryArray = [
   	arm:'big',
   },
 ];
+/*
 
 var repositoryArray = ['Bulbasaur'  +  'Charizard'  +  'Squirtle'];
 var arrayLength = repositoryArray.length;
@@ -37,6 +38,34 @@ for (var i = 0; i < arrayLength;i++) {
 
 
 };	
+
+*/
+
+
+ repositoryArray.forEach(function(repositoryArray)  {
+ 	document.write(repositoryArray.name  +  '<br>')
+ });
+
+
+
+ repositoryArray.forEach(function(repositoryArray)  {
+ 	document.write(repositoryArray.height  +  '<br>')
+ });
+
+
+ repositoryArray.forEach(function(repositoryArray)  {
+ 	document.write(repositoryArray.types  +  '<br>')
+ });
+
+
+ repositoryArray.forEach(function(repositoryArray)  {
+ 	document.write(repositoryArray.age  +  '<br>')
+ });
+
+  repositoryArray.forEach(function(repositoryArray)  {
+ 	document.write(repositoryArray.arm  +  '<br>')
+ });
+
   
   
 
