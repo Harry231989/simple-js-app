@@ -44,27 +44,15 @@ for (var i = 0; i < arrayLength;i++) {
 
  repositoryArray.forEach(function(repositoryArray)  {
  	document.write(repositoryArray.name  +  '<br>')
- });
-
-
-
- repositoryArray.forEach(function(repositoryArray)  {
- 	document.write(repositoryArray.height  +  '<br>')
- });
-
-
- repositoryArray.forEach(function(repositoryArray)  {
+  document.write(repositoryArray.height  +  '<br>')
  	document.write(repositoryArray.types  +  '<br>')
- });
-
-
- repositoryArray.forEach(function(repositoryArray)  {
  	document.write(repositoryArray.age  +  '<br>')
+ 	document.write(repositoryArray.arm  +  '<br>')
+   
  });
 
-  repositoryArray.forEach(function(repositoryArray)  {
- 	document.write(repositoryArray.arm  +  '<br>')
- });
+
+
 
   
   
