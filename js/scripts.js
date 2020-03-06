@@ -1,6 +1,6 @@
+
 /*This is a long comment .it explains several objects to the array that represents Pokemon*/
- var pokemonRepository = (function  () {
-  	 var repositoryArray = [
+ var pokemonRepository = [
   {
   	name:'Bulbasaur',
   	height:7,
@@ -25,20 +25,41 @@
   },
 ];
 
-function add(pokemonRepository.add(item) {
-	repositoryArray.push(pokemonRepository);
+var respository =(function(){
+
+function add(item){
+	pokemonRepository.add(item);
 }
 
-function getAll(pokemonRepository.getAll() {
-	return pokemonRepository;
+function getAll(){
+ 
+return pokemonRepository;
 }
 
-return {
-	add:  add,
-	getAll:  getAll
-};
+return getAll();
 
 })();
+
+
+respository.forEach(function(item) {
+ 	document.write( item.name  +  '<br>')
+ 	document.write(item.height  +  '<br>')
+ 	document.write(item.types  +  '<br>')
+ 	document.write(item.age  +  '<br>')
+ 	document.write(item.arm  +  '<br>')
+  
+ });
+
+
+
+/*return {
+	add:  add,
+	getAll:  getAll
+}/;
+
+*/
+
+
 
 
 
@@ -64,14 +85,6 @@ for (var i = 0; i < arrayLength;i++) {
 */
 
 
- repositoryArray.forEach(function(pokemonRepository)  {
- 	document.write(repositoryArray.name  +  '<br>')
- 	document.write(repositoryArray.height  +  '<br>')
- 	document.write(repositoryArray.types  +  '<br>')
- 	document.write(repositoryArray.age  +  '<br>')
- 	document.write(repositoryArray.arm  +  '<br>')
-  
- });
 
 
 
