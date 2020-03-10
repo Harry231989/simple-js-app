@@ -23,24 +23,77 @@
   	age:9,
   	arm:'big',
   },
+  {  
+   name: 'lucyopo',
+   height:0.8,
+   types:['grass' , 'poison'],
+   age:59,
+   arm:'small',
+  },
+
+  {
+  	name: 'Anthonyk',
+  	height:5.8,
+  	types:['grass' , 'poison'],
+  	age:63,
+  	arm:'big',
+  },
+
+  {
+  	name:'Richlo',
+  	height:5.3,
+  	types:['grass' , 'poison'],
+  	age:34,
+  	arm:'small',
+  },
 ];
 
+var addListItem;
 var respository =(function(){
 
 function add(item){
 	pokemonRepository.add(item);
 }
 
+
+
 function getAll(){
  
 return pokemonRepository;
 }
+/* comments to show all the details*/
+function showDetaials(pokemon){
+	
+	console.log(pokemon);
+}
 
+var list = document.querySelector(".pokemon-list");
+
+ addListItem = function(pokemon){
+var pokemonLI = document.createElement("li");
+var PokemonButton = document.createElement("button");
+
+PokemonButton.classList.add("btnlist");
+PokemonButton.innerText =pokemon;
+
+pokemonLI.appendChild(PokemonButton);
+
+ list.appendChild(pokemonLI);
+
+/* comments for event listener*/
+PokemonButton.addEventListener("click",function(){
+ 	showDetaials(pokemon);
+ });
+
+	
+}
+
+	
 return getAll();
 
 })();
 
-
+/*
 respository.forEach(function(item) {
  	document.write( item.name  +  '<br>')
  	document.write(item.height  +  '<br>')
@@ -49,42 +102,13 @@ respository.forEach(function(item) {
  	document.write(item.arm  +  '<br>')
   
  });
-
-
-
-/*return {
-	add:  add,
-	getAll:  getAll
-}/;
-
 */
 
 
 
 
+respository.forEach(function(item) {
 
- 
+addListItem(item.name);
 
-
-
-
-
-
-/*
-  
-var repositoryArray = ['Bulbasaur'  +  'Charizard'  +  'Squirtle'];
-var arrayLength = repositoryArray.length;
-for (var i = 0; i < arrayLength;i++) {
-	console.log(repositoryArray[i]);
-    document.write("<p>"  +  'Bulbasaur(height:7)' + 'grass','poison'  +  9  +  'big'  + "</p>");
-    document.write("<p>"  +  'Charizard(height:1.7)-Wow thats big'  + 'grass','poison'  +  "</p>");
-    document.write("<p>"  +  'Squirtle(height:0.5)'    +   'grass','poison'  +  9  +  'big'  + "</p>")
-
-
-};
-*/
-
-
-
-
-
+}); 
