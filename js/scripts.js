@@ -8,8 +8,7 @@
   	age:9,
   	arm:'big',
   },
-
-  {
+ {
   	name:'Charizard',
   	height:1.7,
   	types:['grass',  'poison'],
@@ -58,7 +57,7 @@ function add(item){
 
 
 function getAll(){
- 
+  
 return pokemonRepository;
 }
 /* comments to show all the details*/
@@ -78,6 +77,7 @@ PokemonButton.innerText =pokemon;
 
 pokemonLI.appendChild(PokemonButton);
 
+
  list.appendChild(pokemonLI);
 
 /* comments for event listener*/
@@ -92,6 +92,7 @@ PokemonButton.addEventListener("click",function(){
 return getAll();
 
 })();
+
 
 /*
 respository.forEach(function(item) {
@@ -112,3 +113,9 @@ respository.forEach(function(item) {
 addListItem(item.name);
 
 }); 
+
+
+
+
+
+
